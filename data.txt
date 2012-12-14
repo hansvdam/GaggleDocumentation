@@ -12,4 +12,5 @@
 #            |                         |
 #            +-------------------------+  (x2,y2)
 #
-6.37207,46.080852,7.822265,45.560218,Chamonix,#FF0000,#000000,https://docs.google.com/open?id=0B74---J9V6-NbkVLVU5yNlQ4eEk
+6.37207,46.080852,7.822265,45.560218,Chamonix,#00FFFF,#000000,https://docs.google.com/open?id=0B74---J9V6-NbkVLVU5yNlQ4eEk
+12.557373,47.805776,12.733154,47.717154,RuhPolding,#00FFFF,#000000,https://docs.google.com/open?id=0B74---J9V6-Nd19tblY5RUs5M3M
