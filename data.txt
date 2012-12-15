@@ -22,7 +22,7 @@
 11.436768,47.768868,11.645507,47.598756,Brauneck,#FF0000,#000000,https://dl.dropbox.com/s/k9y8z46dnaa6vqj/Brauneck.mbtiles
 10.898438,47.598755,11.271972,47.405786,Garmisch-Partenkirchen,#FF0000,#000000,https://dl.dropbox.com/s/qae3qrfwskcztzo/Garmisch-Partenkirchen.mbtiles
 10.678711,47.635784,10.865478,47.52462,Tegelberg-Buchenberg,#FF0000,#000000,https://dl.dropbox.com/s/9i8wah57xwj97ok/Tegelberg-Buchenberg.mbtiles
-10.480957,4761357,10.733642,47.532038,Breitenberg,#FF0000,#000000,https://dl.dropbox.com/s/42v3jf1aykbkst2/Breitenberg.mbtiles
+10.480957,47.61357,10.733642,47.532038,Breitenberg,#FF0000,#000000,https://dl.dropbox.com/s/42v3jf1aykbkst2/Breitenberg.mbtiles
 10.17334,47.50978,10.426025,47.331377,NebelHorn,#FF0000,#000000,https://dl.dropbox.com/s/cxuzf941cx2n8zy/NebelHorn.mbtiles
 10.063477,47.591346,10.272216,47.502359,Mittag,#FF0000,#000000,https://dl.dropbox.com/s/ht1kz2a0dl6w3ln/Mittag.mbtiles
 15.402832,47.249407,15.545654,47.174,Schoeckl,#FF0000,#000000,https://dl.dropbox.com/s/aasydfdi15k31iy/Schoeckl.mbtiles
