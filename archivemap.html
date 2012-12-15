@@ -35,12 +35,12 @@ body {
 		var map = new google.maps.Map(document.getElementById("map_canvas"),
 				mapOptions);
 		// prevent caching
-		var url = "data.txt?id="+ new Date().getTime().toString();
+		var url = "data.txt?id=" + new Date().getTime().toString();
 		var textString = read_external_text_file(url);
-// 		$.get("data.txt", function(textstring) {
-			var data = csv2array(textString, ',');
-			makeAreas(data, map);
-// 		}, "text");
+		// 		$.get("data.txt", function(textstring) {
+		var data = csv2array(textString, ',');
+		makeAreas(data, map);
+		// 		}, "text");
 		// 			alert(textString);
 		// 		});
 		// 		var textString = read_external_text_file("https://docs.google.com/uc?export=download&id=0B74---J9V6-NTFl6emRJa0lHYXc");
@@ -64,10 +64,14 @@ body {
 						new google.maps.LatLng(lineData[1], lineData[2], true))
 			};
 			rectangle.setOptions(rectOptions);
-			google.maps.event.addListener(rectangle, 'click', function() {
-				window.location.href = lineData[7];
+			with ({
+				ref : lineData[7]
+			}) {
+				google.maps.event.addListener(rectangle, 'click', function() {
+					window.location.href = ref;
 
-			});
+				});
+			}
 			var test = parseFloat(lineData[0]) + parseFloat(lineData[2]);
 			var mapLabel = new MapLabel(
 					{
