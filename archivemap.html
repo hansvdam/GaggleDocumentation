@@ -26,14 +26,20 @@ body {
 <!-- <script type="text/javascript" src="http://www.damsoft.nl/data.js"></script> -->
 <script type="text/javascript">
 	function initialize() {
-
+		
 		var mapOptions = {
 			center : new google.maps.LatLng(46, 10),
 			zoom : 7,
-			mapTypeId : google.maps.MapTypeId.ROADMAP
+			overviewMapControl : true,
+			mapTypeId: google.maps.MapTypeId.TERRAIN
 		};
-		var map = new google.maps.Map(document.getElementById("map_canvas"),
+		var mapDiv = document.getElementById("map_canvas");
+		var textDiv = document.getElementById("text");
+		var map = new google.maps.Map(mapDiv,
 				mapOptions);
+		$('#map_canvas').click(function(){$('#text').height("10%")});
+// 		mapDiv.onclick="alert('hoi')";
+// 		textDiv.onclick="alert('hoi')";
 		// prevent caching
 		var url = "data.txt?id=" + new Date().getTime().toString();
 		var textString = read_external_text_file(url);
@@ -94,7 +100,7 @@ body {
 </script>
 </head>
 <body onload="initialize()">
-	<div id="text" style="width: 100%">
+	<div id="text" style="width: 100%; overflow:  scroll">
 		<h1>MBTile archives for Gaggle</h1>
 		<p>
 			The tile-archive that can be downloaded from the following map are
@@ -116,6 +122,6 @@ body {
 		</p>
 		</p>
 	</div>
-	<div id="map_canvas" style="width: 100%; height: 80%"></div>
+	<div id="map_canvas" style="width: 100%; height: 100%"></div>
 </body>
 </html>
