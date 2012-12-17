@@ -103,8 +103,8 @@
 6.08,46.18,6.24,46.04,Saleve,#FF0000,#000000,https://dl.dropbox.com/s/k4od6o1yuyojtmd/Saleve.mbtiles
 6.36,46.02,6.64,45.87,Mont-lachat,#FF0000,#000000,https://dl.dropbox.com/s/muhk3upbo5ztu9u/Mont-lachat.mbtiles
 6.11,45.92,6.27,45.77,Annecy,#FF0000,#000000,https://dl.dropbox.com/s/c2x1apcm25depw6/Annecy.mbtiles
-#6.68,45.67,6.97,45.48,Bourg-st-maurice,#FF0000,#000000,
-#5.71,45.44,5.99,45.22,St-Hilaire,#FF0000,#000000,
-#6.00,45.08,6.33,44.97,Les-deux-alpes,#FF0000,#000000,
-#6.50,44.98,6.74,44.86,Briancon,#FF0000,#000000,
+6.68,45.67,6.97,45.48,Bourg-st-maurice,#FF0000,#000000,https://dl.dropbox.com/s/9vhnwvyeveimte8/Bourg-st-maurice.mbtiles
+5.71,45.44,5.99,45.22,St-Hilaire,#FF0000,#000000,https://dl.dropbox.com/s/yfziq3m3f76tvar/St-Hilaire.mbtiles
+6.00,45.08,6.33,44.97,Les-deux-alpes,#FF0000,#000000,https://dl.dropbox.com/s/v4jicjbcraykhq3/Les-deux-alpes.mbtiles
+6.50,44.98,6.74,44.86,Briancon,#FF0000,#000000,https://dl.dropbox.com/s/1dtz0c9h5gls19i/Briancon.mbtiles
 #,,,,Gelitzen,#FF0000,#000000,
