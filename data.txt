@@ -14,7 +14,7 @@
 #
 # x=longitude, y=lattitude
 #
-6.37207,46.080852,7.822265,45.560218,Chamonix,#ff0000,#000000,https://dl.dropbox.com/s/060jwkv9avnfjrt/Chamonix.mbtiles
+6.62,46.04,7.13,45.76,Chamonix,#ff0000,#000000,https://dl.dropbox.com/s/060jwkv9avnfjrt/Chamonix.mbtiles
 12.557373,47.805776,12.733154,47.717154,RuhPolding,#FF0000,#000000,https://dl.dropbox.com/s/ea0cm82gmliusr2/RuhPolding.mbtiles
 11.645508,45.882361,11.854248,45.782849,Bassano,#FF0000,#000000,https://dl.dropbox.com/s/sz82pcrlnbvpl7o/Bassano.mbtiles
 12.491455,47.835283,12.711181,47.761484,Hochfelln,#FF0000,#000000,https://dl.dropbox.com/s/e8ijbda5w0f5h02/Hochfelln.mbtiles
@@ -87,4 +87,24 @@
 8.39,46.98,8.61,46.91,Emmetten,#FF0000,#000000,https://dl.dropbox.com/s/fqe4e5aqgi1is2e/Emmetten.mbtiles
 8.33,46.91,8.56,46.76,Engelberg,#FF0000,#000000,https://dl.dropbox.com/s/54904imxa1e8fsq/Engelberg.mbtiles
 8.13,46.77,8.33,46.70,Planplatten,#FF0000,#000000,https://dl.dropbox.com/s/hcvbp796tgedj06/Planplatten.mbtiles
+7.70,46.77,8.00,46.64,Interlaken,#FF0000,#000000,https://dl.dropbox.com/s/p69bp0yqiy3d18l/Interlaken.mbtiles
+7.79,46.64,8.05,46.50,Grindelwald,#FF0000,#000000,https://dl.dropbox.com/s/6g1oqu1b31b7zz5/Grindelwald.mbtiles
+7.44,46.72,7.71,46.53,Niesen-stockhorn,#FF0000,#000000,https://dl.dropbox.com/s/08ya7bc099ctpzi/Niesen.mbtiles
+7.46,46.53,7.75,46.43,Kandersteg,#FF0000,#000000,https://dl.dropbox.com/s/0n9m1ea0fnkom66/Kandersteg.mbtiles
+7.17,46.52,7.39,46.34,Gstaad,#FF0000,#000000,https://dl.dropbox.com/s/v945howcp2aunc1/Gstaad.mbtiles
+7.98,46.57,8.36,46.32,Fiesch,#FF0000,#000000,https://dl.dropbox.com/s/m2ehdimcoyefuqm/Fiesch.mbtiles
+7.66,46.13,7.88,45.92,Zermatt,#FF0000,#000000,https://dl.dropbox.com/s/a1ye0q0ci7kio9w/Zermatt.mbtiles
+7.39,46.38,7.60,46.28,Crans-montana,#FF0000,#000000,https://dl.dropbox.com/s/dtswf0y246d428m/Crans-montana.mbtiles
+7.13,46.13,7.32,46.01,Verbier,#FF0000,#000000,https://dl.dropbox.com/s/tokrzo6kxvmnvbc/Verbier.mbtiles
+7.16,47.32,7.81,47.19,Weissenstein,#FF0000,#000000,https://dl.dropbox.com/s/txuws9tvc9z711s/Weissenstein.mbtiles
+6.91,46.53,7.16,46.34,Villeneuve,#FF0000,#000000,https://dl.dropbox.com/s/3qetk6lc8r8xj9g/Villeneuve.mbtiles
+6.92,47.19,7.32,47.09,Chasseral,#FF0000,#000000,https://dl.dropbox.com/s/rh5qe73620sl2yf/Chasseral.mbtiles
+6.45,46.15,6.84,46.03,Mieussy,#FF0000,#000000,https://dl.dropbox.com/s/n0lg7smtiw92viw/Mieussy.mbtiles
+6.08,46.18,6.24,46.04,Saleve,#FF0000,#000000,https://dl.dropbox.com/s/k4od6o1yuyojtmd/Saleve.mbtiles
+6.36,46.02,6.64,45.87,Mont-lachat,#FF0000,#000000,https://dl.dropbox.com/s/muhk3upbo5ztu9u/Mont-lachat.mbtiles
+6.11,45.92,6.27,45.77,Annecy,#FF0000,#000000,https://dl.dropbox.com/s/c2x1apcm25depw6/Annecy.mbtiles
+#6.68,45.67,6.97,45.48,Bourg-st-maurice,#FF0000,#000000,
+#5.71,45.44,5.99,45.22,St-Hilaire,#FF0000,#000000,
+#6.00,45.08,6.33,44.97,Les-deux-alpes,#FF0000,#000000,
+#6.50,44.98,6.74,44.86,Briancon,#FF0000,#000000,
 #,,,,Gelitzen,#FF0000,#000000,
