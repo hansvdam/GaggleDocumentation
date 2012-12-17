@@ -121,4 +121,8 @@
 7.09,44.13,7.27,44.02,La-colmiane-valdeblore,#FF0000,#000000,https://dl.dropbox.com/s/8kslnb0rl8lpwrd/La-colmiane-valdeblore.mbtiles
 7.36,43.92,7.52,43.83,Sospel,#FF0000,#000000,https://dl.dropbox.com/s/e9iha6qg7ukme8p/Sospel.mbtiles
 7.37,43.79,7.46,43.72,Monaco,#FF0000,#000000,https://dl.dropbox.com/s/aythgn2abmcayrj/Monaco.mbtiles
+# vogese:
+6.66,47.86,7.02,47.72,Ballon-alsace,#FF0000,#000000,https://dl.dropbox.com/s/t2el6dslmgvp570/Ballon-alsace.mbtiles
+6.88,47.98,7.11,47.82,vallee-de-la-thur,#FF0000,#000000,https://dl.dropbox.com/s/2f2bzzpaoshnfih/vallee-de-la-thur.mbtiles
+#,,,,Gelitzen,#FF0000,#000000,
 #,,,,Gelitzen,#FF0000,#000000,
