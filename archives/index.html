@@ -6,12 +6,14 @@
 </head>
 <body>
 <h1>MB Tile archives</h1>
-<p>Most maps on the internet an mobile devices can be zoomed in like the well known Google Maps. At each zoom level the map you see consists of a number of 'tiles' (small square bitmap areas/files) that are each downloaded separately from a server. At each zoomlevel and more detailed set of tile-bitmaps is downloaded from the server. Sometimes on a slow connection you can see the map being built up from these tiles.</br>
+<p>Most maps on the internet and mobile devices can be zoomed in like Google Maps. At each zoom level the map you see consists of a number of 'tiles' (small square bitmap areas/files) that are downloaded separately from a server. 
+At each zoomlevel a more detailed set of tile-bitmaps is downloaded from the server. Sometimes on a slow connection you can see the map being built up from these tiles.</br>
 For some applications, like <a href="https://play.google.com/store/apps/details?id=com.geeksville.gaggle">Gaggle</a>, 
 it can be beneficial not to have to download these tiles, because there's no internet connection in flight, 
-because the internet connection is expensive abroad, or because the internet connection drains the battery of the mobile device. For that we have tile-archive: a file containing the tiles of a specific area on the planet at several zoomlevels.
-An mb-tile-archive is an <a href="http://en.wikipedia.org/wiki/SQLite">sqlite</a> database-files with an extension .mbtiles that 
-contains the bitmap tiles for an area</p>
+because the internet connection is expensive abroad, or because the internet connection drains the battery of the mobile device. 
+For that we have tile-archives: a file containing the tiles of a specific area on the planet at one or several zoom levels.
+An mb-tile-archive is an <a href="http://en.wikipedia.org/wiki/SQLite">sqlite</a> database-files with extension .mbtiles that 
+contains the bitmap tiles for an area.</p>
 <p>On On this sit<acronym></acronym>e you can find the following resources for dealing with archives:
 <ul>
 <li><a href="https://github.com/hansvdam/GaggleDocumentation/wiki/Creating-an-offline-maptile-archive">Instructions on how to create mbtiles archives</a> yourself of the area where you want to fly with Gaggle.
