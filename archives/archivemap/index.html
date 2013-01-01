@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<style type="text/css">
+html {
+	height: 100%
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0
+}
+
+#map_canvas {
+	height: 100%
+}
+</style>
+<script type="text/javascript"
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtIq-6_J7OOhFPj9jtdv2xpbFq1yyZW7U&sensor=false"></script>
+<script type="text/javascript" src="../../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../../js/maplabel-compiled.js"></script>
+<script type="text/javascript" src="../../js/csv2array.js"></script>
+<script type="text/javascript" src="../../js/readtextfile.js"></script>
+<script type="text/javascript">
+	function initialize() {
+		
+		var mapOptions = {
+			center : new google.maps.LatLng(46, 10),
+			zoom : 7,
+			mapTypeId: google.maps.MapTypeId.TERRAIN
+		};
+		var mapDiv = document.getElementById("map_canvas");
+		var textDiv = document.getElementById("text");
+		var map = new google.maps.Map(mapDiv,
+				mapOptions);
+		$('#map_canvas').click(function(){$('#text').height("10%")});
+// 		mapDiv.onclick="alert('hoi')";
+// 		textDiv.onclick="alert('hoi')";
+		// prevent caching
+		var url = "data.txt?id=" + new Date().getTime().toString();
+		var textString = read_external_text_file(url);
+		// 		$.get("data.txt", function(textstring) {
+		var data = csv2array(textString, ',');
+		makeAreas(data, map);
+		// 		}, "text");
+		// 			alert(textString);
+		// 		});
+		// 		var textString = read_external_text_file("https://docs.google.com/uc?export=download&id=0B74---J9V6-NTFl6emRJa0lHYXc");
+	}
+
+	function makeAreas(data, map) {
+		// 		var data = csv2array(textString, ',');
+		for ( var i = 0; i < data.length; i++) {
+			var lineData = data[i];
+
+			var rectangle = new google.maps.Rectangle();
+			var rectOptions = {
+				strokeColor : "#000000",
+				strokeOpacity : 0.8,
+				strokeWeight : 2,
+				fillColor : lineData[5],
+				fillOpacity : 0.35,
+				map : map,
+				bounds : new google.maps.LatLngBounds(new google.maps.LatLng(
+						lineData[3], lineData[0], true),
+						new google.maps.LatLng(lineData[1], lineData[2], true))
+			};
+			rectangle.setOptions(rectOptions);
+			with ({
+				ref : lineData[7]
+			}) {
+				google.maps.event.addListener(rectangle, 'click', function() {
+					window.location.href = ref;
+
+				});
+			}
+			var test = parseFloat(lineData[0]) + parseFloat(lineData[2]);
+			var mapLabel = new MapLabel(
+					{
+						text : lineData[4],
+						fontColor : lineData[6],
+						minZoom : 7,
+						position : new google.maps.LatLng(
+								(parseFloat(lineData[3]) + parseFloat(lineData[1]))
+										/ 2
+										+ (parseFloat(lineData[1]) - parseFloat(lineData[3]))
+										/ 4,
+								(parseFloat(lineData[0]) + parseFloat(lineData[2])) / 2),
+						map : map,
+						fontSize : 15,
+						align : 'center'
+					});
+		}
+
+	}
+</script>
+</head>
+<body onload="initialize()">
+	<div id="text" style="width: 100%; overflow:  scroll">
+		<h1>MBTile archives for Gaggle</h1>
+		<p>
+			The tile-archive that can be downloaded from the following map are
+			for use in the <a
+				href="https://play.google.com/store/apps/details?id=org.kataplop.android.gaggle.beta">Gaggle
+				beta android app</a>. just put them in the sdcard/osmdroid directory on
+			your phone and they'll be available from the map-selection menu in
+			Gaggle (beta for now that is). Make sure the file-extension is
+			'mbtiles' as some mobile browser change the extension into 'bin' (you
+			should change it back to 'mbtiles' in that case). You can inspect the archives you've
+			dowloaded using (on Windows) with <a href="http://viswaug.wordpress.com/2011/06/28/mbtilesviewer/">MBTilesViewer</a>. Just drag the archive onto the map shown by the viewer and you can inspect it (it has no menu to open files, you have to drag you archives in there!). If you
+			want to produce your own archives (and make them available throught
+			this site ;)) just read the instructions <a
+				href="https://github.com/hansvdam/GaggleDocumentation/wiki/Creating-an-offline-maptile-archive">here</a>.</br>
+			The tiles in the archive under the red tiles are produces from <a
+				href="http://www.wanderreitkarte.de">'Wanderkarte (Nop)'.</a> and
+			can be redistributed under <a
+				href="http://www.wanderreitkarte.de/licence_de.php">these
+				licenses</a>, which basically means you can redistribute them for
+			non-commercial use and you have to include a pointer to the origin
+			and the license whith your redistributions.
+		</p>
+		</p>
+	</div>
+	<div id="map_canvas" style="width: 100%; height: 100%"></div>
+</body>
+</html>
