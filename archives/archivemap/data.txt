@@ -44,7 +44,7 @@
 12.12,47.50,12.44,47.33,Westendorf,#FF0000,#000000,https://dl.dropbox.com/s/19b3g3d6xd4nr5z/Westendorf.mbtiles
 12.33,47.70,12.55,47.60,Koessen,#FF0000,#000000,https://dl.dropbox.com/s/fzz66nzhpb3x8k4/Koessen.mbtiles
 12.01,47.48,12.15,47.41,WildShoenau,#FF0000,#000000,https://dl.dropbox.com/s/mykdth43c72h5xg/WildShoenau.mbtiles
-11.66,47.50,11.86,47.40,Achensee,#FF0000,#000000,https://dl.dropbox.com/s/6d36pzcf6ae3ruk/Achensee.mbtiles
+11.66,47.50,11.86,47.40,Achensee,#FF0000,#000000,https://mega.co.nz/#!jZhkVCqZ!Ro-2AgMR0m7_66-cmH6FV4Jnk1gzs2Gvc2OL-V0kACc
 11.74,47.42,12.03,47.12,Zillertal,#FF0000,#000000,https://dl.dropbox.com/s/ube7r5rg8vqngsr/Zillertal.mbtiles
 11.18,47.33,11.75,47.19,Innsbruck,#FF0000,#000000,https://dl.dropbox.com/s/3rmorr5spdehqym/Innsbruck.mbtiles
 11.16,47.20,11.51,46.98,Stubai,#FF0000,#000000,https://dl.dropbox.com/s/agxgcuairk630v0/Stubai.mbtiles
@@ -69,7 +69,7 @@
 10.72,45.85,10.92,45.60,Lake-Garda,#FF0000,#000000,https://dl.dropbox.com/s/llyl042sj4y7ia6/Lake-Garda.mbtiles
 10.86,46.21,11.06,46.07,Molveno,#FF0000,#000000,https://dl.dropbox.com/s/rbv7nibv9xls90d/Molveno.mbtiles
 10.04,45.79,10.18,45.64,Forcella-di-sale,#FF0000,#000000,https://dl.dropbox.com/s/l1kp2hsprjzd1n5/Forcella-di-sale.mbtiles
-9.28,46.08,9.39,45.96,Alpe-di-giumello,#FF0000,#000000,https://dl.dropbox.com/s/4ehzeoljiozpucc/Alpe-di-giumello.mbtiles
+9.28,46.08,9.39,45.96,Alpe-di-giumello,#FF0000,#000000,https://mega.co.nz/#!GRZwlagK!Xcv-22vtT6OFtx9VE6dgD-r-a635B88m8q0mQpJo9eA
 9.22,45.86,9.40,45.78,Monte-cornizzolo,#FF0000,#000000,https://dl.dropbox.com/s/vwqlsk1z8a2icad/Monte-cornizzolo.mbtiles
 8.59,45.97,8.78,45.86,Laveno,#FF0000,#000000,https://dl.dropbox.com/s/mi7uro2kk106d68/Laveno.mbtiles
 8.31,46.20,8.65,46.09,Piana-di-vigezzo,#FF0000,#000000,https://dl.dropbox.com/s/m4z3gk4yqgaidm0/Piana-di-vigezzo.mbtiles
